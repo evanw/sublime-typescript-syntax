@@ -214,6 +214,8 @@
     { "trigger": "declare", "contents": "declare" },
     { "trigger": "extends", "contents": "extends" },
     { "trigger": "private", "contents": "private" },
+    { "trigger": "export", "contents": "export" },
+    { "trigger": "import", "contents": "import" },
     { "trigger": "public", "contents": "public" },
     { "trigger": "module", "contents": "module" },
     { "trigger": "class", "contents": "class" },
