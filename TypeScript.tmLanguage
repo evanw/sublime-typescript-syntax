@@ -117,7 +117,7 @@
     <key>one-argument-lambda</key>
     <dict>
       <key>match</key>
-      <string>\b(\w+)\s*(=&gt;)</string>
+      <string>([\w$]+)\s*(=&gt;)</string>
       <key>captures</key>
       <dict>
         <key>1</key>
@@ -183,7 +183,7 @@
     <key>import</key>
     <dict>
       <key>begin</key>
-      <string>\b(import)\s+(\w+)\s*(=)</string>
+      <string>\b(import)\s+([\w$]+)\s*(=)</string>
       <key>beginCaptures</key>
       <dict>
         <key>1</key>
@@ -231,7 +231,7 @@
       <array>
         <dict>
           <key>match</key>
-          <string>\b\w+\b</string>
+          <string>[\w$]+</string>
           <key>name</key>
           <string>entity.name.function.ts</string>
         </dict>
@@ -399,7 +399,7 @@
     <key>class-interface-symbol</key>
     <dict>
       <key>begin</key>
-      <string>\b(\w+)\b</string>
+      <string>([\w$]+)</string>
       <key>beginCaptures</key>
       <dict>
         <key>1</key>
@@ -562,7 +562,7 @@
     <key>define-generic-name</key>
     <dict>
       <key>begin</key>
-      <string>\b(\w+)\s*&lt;</string>
+      <string>([\w$]+)\s*&lt;</string>
       <key>beginCaptures</key>
       <dict>
         <key>1</key>
@@ -589,7 +589,7 @@
     <key>define-simple-name</key>
     <dict>
       <key>match</key>
-      <string>\b\w+\b</string>
+      <string>[\w$]+</string>
       <key>name</key>
       <string>entity.name.function.ts</string>
     </dict>
@@ -612,7 +612,7 @@
     <key>type-generic-name</key>
     <dict>
       <key>begin</key>
-      <string>\b(\w+)\s*&lt;</string>
+      <string>([\w$]+)\s*&lt;</string>
       <key>beginCaptures</key>
       <dict>
         <key>1</key>
@@ -639,7 +639,7 @@
     <key>type-simple-name</key>
     <dict>
       <key>match</key>
-      <string>\b\w+\b</string>
+      <string>[\w$]+</string>
       <key>name</key>
       <string>storage.type.ts</string>
     </dict>
