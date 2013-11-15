@@ -219,6 +219,7 @@
     { "trigger": "export", "contents": "export" },
     { "trigger": "import", "contents": "import" },
     { "trigger": "public", "contents": "public" },
+    { "trigger": "static", "contents": "static" },
     { "trigger": "module", "contents": "module" },
     { "trigger": "class", "contents": "class" },
     { "trigger": "enum", "contents": "enum" }
