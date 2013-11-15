@@ -35,6 +35,8 @@
     { "trigger": "toUpperCase", "contents": "toUpperCase" },
     { "trigger": "Error", "contents": "Error" },
     { "trigger": "stack", "contents": "stack" },
+    { "trigger": "forEach", "contents": "forEach" },
+    { "trigger": "map", "contents": "map" },
 
     { "trigger": "encodeURIComponent", "contents": "encodeURIComponent" },
     { "trigger": "setTimeout", "contents": "setTimeout" },

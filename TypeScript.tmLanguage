@@ -230,6 +230,14 @@
       <key>patterns</key>
       <array>
         <dict>
+          <key>include</key>
+          <string>#line-comment</string>
+        </dict>
+        <dict>
+          <key>include</key>
+          <string>#block-comment</string>
+        </dict>
+        <dict>
           <key>match</key>
           <string>[\w$]+</string>
           <key>name</key>
