@@ -35,6 +35,8 @@
     { "trigger": "toUpperCase", "contents": "toUpperCase" },
     { "trigger": "Error", "contents": "Error" },
     { "trigger": "stack", "contents": "stack" },
+    { "trigger": "forEach", "contents": "forEach" },
+    { "trigger": "map", "contents": "map" },
 
     { "trigger": "encodeURIComponent", "contents": "encodeURIComponent" },
     { "trigger": "setTimeout", "contents": "setTimeout" },
@@ -217,6 +219,7 @@
     { "trigger": "export", "contents": "export" },
     { "trigger": "import", "contents": "import" },
     { "trigger": "public", "contents": "public" },
+    { "trigger": "static", "contents": "static" },
     { "trigger": "module", "contents": "module" },
     { "trigger": "class", "contents": "class" },
     { "trigger": "enum", "contents": "enum" }
