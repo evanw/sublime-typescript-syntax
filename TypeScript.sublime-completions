@@ -3,11 +3,6 @@
 
   "completions":
   [
-    { "trigger": "number", "contents": "number" },
-    { "trigger": "boolean", "contents": "boolean" },
-    { "trigger": "string", "contents": "string" },
-    { "trigger": "void", "contents": "void" },
-
     { "trigger": "log", "contents": "console.log(${1});" },
     { "trigger": "for", "contents": "for (var ${1:i} = 0; $1 < ${2:n}; $1++) {${3}}" },
 
@@ -42,6 +37,11 @@
     { "trigger": "stack", "contents": "stack" },
     { "trigger": "forEach", "contents": "forEach" },
     { "trigger": "map", "contents": "map" },
+
+    { "trigger": "number", "contents": "number" },
+    { "trigger": "boolean", "contents": "boolean" },
+    { "trigger": "string", "contents": "string" },
+    { "trigger": "void", "contents": "void" },
 
     { "trigger": "encodeURIComponent", "contents": "encodeURIComponent" },
     { "trigger": "setTimeout", "contents": "setTimeout" },
