@@ -109,7 +109,7 @@
     <key>number</key>
     <dict>
       <key>match</key>
-      <string>\b(?:0[xX]\d*|\d+|\d+\.|\.\d+|\d+\.\d+)(?:[eE][+-]?\d+)?\b</string>
+      <string>\b(?:0[xX][0-9A-Fa-f]+|\d+|\d+\.|\.\d+|\d+\.\d+)(?:[eE][+-]?\d+)?\b</string>
       <key>name</key>
       <string>constant.language.ts</string>
     </dict>
