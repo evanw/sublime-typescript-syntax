@@ -38,6 +38,11 @@
     { "trigger": "forEach", "contents": "forEach" },
     { "trigger": "map", "contents": "map" },
 
+    { "trigger": "number", "contents": "number" },
+    { "trigger": "boolean", "contents": "boolean" },
+    { "trigger": "string", "contents": "string" },
+    { "trigger": "void", "contents": "void" },
+
     { "trigger": "encodeURIComponent", "contents": "encodeURIComponent" },
     { "trigger": "setTimeout", "contents": "setTimeout" },
     { "trigger": "clearTimeout", "contents": "clearTimeout" },
@@ -205,11 +210,11 @@
     { "trigger": "innerWidth", "contents": "innerWidth" },
     { "trigger": "innerHeight", "contents": "innerHeight" },
     { "trigger": "textContent", "contents": "textContent" },
-
-    { "trigger": "number", "contents": "number" },
-    { "trigger": "boolean", "contents": "boolean" },
-    { "trigger": "string", "contents": "string" },
-    { "trigger": "void", "contents": "void" },
+    { "trigger": "HTMLElement", "contents": "HTMLElement" },
+    { "trigger": "className", "contents": "className" },
+    { "trigger": "classList", "contents": "classList" },
+    { "trigger": "remove", "contents": "remove" },
+    { "trigger": "add", "contents": "add" },
 
     { "trigger": "implements", "contents": "implements" },
     { "trigger": "interface", "contents": "interface" },

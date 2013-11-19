@@ -52,6 +52,41 @@
       <string>keyword.ts</string>
     </dict>
 
+    <key>typed-lambda</key>
+    <dict>
+      <key>begin</key>
+      <string>\(\s*([\w$]+)\s*(?=:)</string>
+      <key>beginCaptures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>entity.name.function.ts</string>
+        </dict>
+      </dict>
+      <key>end</key>
+      <string>\)\s*(=&gt;)</string>
+      <key>endCaptures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>keyword.operator.ts</string>
+        </dict>
+      </dict>
+      <key>patterns</key>
+      <array>
+        <dict>
+          <key>include</key>
+          <string>#define-simple-name</string>
+        </dict>
+        <dict>
+          <key>include</key>
+          <string>#colon-type</string>
+        </dict>
+      </array>
+    </dict>
+
     <key>operator</key>
     <dict>
       <key>match</key>
@@ -804,6 +839,10 @@
     <dict>
       <key>patterns</key>
       <array>
+        <dict>
+          <key>include</key>
+          <string>#typed-lambda</string>
+        </dict>
         <dict>
           <key>include</key>
           <string>#simple</string>
